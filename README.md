@@ -34,10 +34,4 @@ cd dog-project
 
 5. Build docker image using the Dockerfile provided.
 
-6. Run the built image with docker run \[image\_name\] --gpus --all -v
-\[path-to-dogs-dataset\]:/opt/dog\_project/dogImages -v
-\[path-to-humans-dataset\]:/opt/dog\_project/lfw -v
-\[path-to-project\]/.ipynb\_checkpoints:/opt/dog\_project/.ipynb\_checkpoints -v
-\[path-to-project\]/saved\_models:/opt/dog\_project/saved\_models -v
-\[path-to-project\]/bottleneck\_features:/opt/dog\_project/bottleneck\_features
-\[image-name]
+6. Run the built image with `docker run \[image\_name\] --gpus --all -v \[path-to-dogs-dataset\]:/opt/dog\_project/dogImages -v \[path-to-humans-dataset\]:/opt/dog\_project/lfw -v \[path-to-project\]/.ipynb\_checkpoints:/opt/dog\_project/.ipynb\_checkpoints -v \[path-to-project\]/saved\_models:/opt/dog\_project/saved\_models -v \[path-to-project\]/bottleneck\_features:/opt/dog\_project/bottleneck\_features \[image-name]`
