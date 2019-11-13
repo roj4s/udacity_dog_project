@@ -32,6 +32,6 @@ cd dog-project
 
 4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog-project/bottleneck_features`.
 
-5. Build docker image using the Dockerfile provided.
+5. Build docker image using the Dockerfile provided. Or pull from docker hub as `docker pull roj4s/udacity_dog_project`
 
-6. Run the built image with `docker run \[image\_name\] --gpus --all -v \[path-to-dogs-dataset\]:/opt/dog\_project/dogImages -v \[path-to-humans-dataset\]:/opt/dog\_project/lfw -v \[path-to-project\]/.ipynb\_checkpoints:/opt/dog\_project/.ipynb\_checkpoints -v \[path-to-project\]/saved\_models:/opt/dog\_project/saved\_models -v \[path-to-project\]/bottleneck\_features:/opt/dog\_project/bottleneck\_features \[image-name]`
+6. Run the built image with `docker run [image_name] --gpus --all -v [path-to-dogs-dataset]:/opt/dog_project/dogImages -v [path-to-humans-dataset]:/opt/dog_project/lfw -v [path-to-project]/.ipynb_checkpoints:/opt/dog_project/.ipynb_checkpoints -v [path-to-project]/saved_models:/opt/dog_project/saved_models -v [path-to-project]/bottleneck_features:/opt/dog_project/bottleneck_features [image-name]`
