@@ -14,7 +14,7 @@ given an image of a dog, it identifies an estimate of the canine’s breed.  If 
 
 ![Sample Output][image1]
 
-It explores state-of-the-art CNN models for classification.  It explores the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  
+It explores state-of-the-art CNN models for classification and the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.
 
 ## Project Instructions
 
