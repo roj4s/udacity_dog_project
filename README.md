@@ -36,6 +36,6 @@ cd dog-project
 
 5. Build docker image using the Dockerfile provided. Or pull from docker hub as `docker pull roj4s/udacity_dog_project`
 
-6. Run the built image with `docker run [image_name] --gpus --all -v [path-to-dogs-dataset]:/opt/dog_project/dogImages -v [path-to-humans-dataset]:/opt/dog_project/lfw -v [path-to-project]/.ipynb_checkpoints:/opt/dog_project/.ipynb_checkpoints -v [path-to-project]/saved_models:/opt/dog_project/saved_models -v [path-to-project]/bottleneck_features:/opt/dog_project/bottleneck_features [image-name]`
+6. Run the built image with `docker run [image_name] --gpus --all -p 8080:8080 -v [path-to-dogs-dataset]:/opt/dog_project/dogImages -v [path-to-humans-dataset]:/opt/dog_project/lfw -v [path-to-project]/.ipynb_checkpoints:/opt/dog_project/.ipynb_checkpoints -v [path-to-project]/saved_models:/opt/dog_project/saved_models -v [path-to-project]/bottleneck_features:/opt/dog_project/bottleneck_features [image-name]`
 
-7. Open Jupyter notebook in browser and revert to last checkpoint.
+7. Open Jupyter notebook in browser at localhost:8080 and revert to last checkpoint.
